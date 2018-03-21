@@ -9,7 +9,7 @@ using webappFTH.Models;
 using webappFTH.Controllers;
 
 namespace webappFTH.SqlContext
-{// github link
+{//https://github.com/Hachimii/KillerApp.git github link
 
     public class ProjectSqlContext: Database
     {
