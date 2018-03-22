@@ -18,6 +18,8 @@ namespace webappFTH.SqlContext
         
         public void AddVolunteer(Volunteer vv)
         {
+            
+            
             db.Openconnection();
             string query = "INSERT INTO Volunteer" + "(Name," + "Address," + "Birthdate," + "Experience," + "Phonenumber," + "Email," + "Username," + "Password," + "City)" + "VALUES" + "(@Name," + "@Address," + "@Birthdate," + "@Experience," + "@Phonenumber," + "@Email," + "@Username," + "@Password," + "@City)";
             SqlCommand Cmd = new SqlCommand(query);
@@ -34,6 +36,8 @@ namespace webappFTH.SqlContext
             Cmd.ExecuteScalar();
 
         }
+
+
 
    
         

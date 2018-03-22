@@ -13,5 +13,7 @@ namespace webappFTH.Interfaces
     {
         void AddVolunteer(Volunteer V);
         void UpdateVolunteer(Volunteer V);
+        void Checkpasswoord();
+        void Checkinput();
     }
 }
